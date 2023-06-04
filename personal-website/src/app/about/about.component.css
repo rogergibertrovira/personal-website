@@ -49,6 +49,10 @@ h4 {
   padding-top: 20px;
 }
 
+.col-top-left {
+  text-align: end;
+}
+
 .icon1 {
   color: #e85a4f;
   font-size: xx-large;
@@ -58,6 +62,11 @@ h4 {
   font-family: CatHat;
   font-weight: 900;
   color: #e85a4f;
+}
+
+.grid-menu {
+  color: #e85a4f;
+  font-size: xx-large;
 }
 
 .text {
