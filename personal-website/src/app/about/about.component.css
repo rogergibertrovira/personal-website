@@ -1,0 +1,31 @@
+@media only screen and (min-width: 992px) {
+  .container1 {
+    padding-top: 100px;
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .container1 {
+    padding-top: 50px;
+    height: 100vh;
+  }
+}
+
+.row1 {
+  padding-top: 20px;
+}
+
+.col1 {
+  text-align: center;
+}
+
+.icon1 {
+  font-size: xx-large;
+}
+
+.title {
+  font-family: CatHat;
+  font-weight: 900;
+  color: #e85a4f;
+}

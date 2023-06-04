@@ -1,0 +1,38 @@
+.list-item1 {
+  border: none;
+}
+
+.a1 {
+  text-decoration: none;
+}
+
+.icon1 {
+  margin-right: 20px;
+}
+
+@media only screen and (min-width: 992px) {
+  .container1 {
+    padding-top: 100px;
+    height: 100vh;
+  }
+  .row1 {
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+  .col-scroll {
+    overflow-y: scroll;
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .container1 {
+    padding-top: 50px;
+  }
+  .row1 {
+    display: none;
+  }
+  .col-scroll {
+    overflow-y: auto;
+  }
+}

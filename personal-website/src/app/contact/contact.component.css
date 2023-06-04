@@ -1,0 +1,15 @@
+@media only screen and (min-width: 992px) {
+  .container1 {
+    padding-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .container1 {
+    padding-top: 50px;
+  }
+}
+
+.link1 {
+  text-decoration: none;
+}

@@ -1,0 +1,51 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/fonts/Montserrat.ttf');
+}
+
+@font-face {
+  font-family: 'Geologica';
+  src: url('./assets/fonts/Geologica.ttf');
+}
+
+@font-face {
+  font-family: 'TenorSans';
+  src: url('./assets/fonts/TenorSans.ttf');
+}
+
+@font-face {
+  font-family: 'JosefinSans';
+  src: url('./assets/fonts/JosefinSans.ttf');
+}
+
+@font-face {
+  font-family: 'Glusp';
+  src: url('./assets/fonts/Glusp.ttf');
+}
+
+@font-face {
+  font-family: 'Maler';
+  src: url('./assets/fonts/Maler.ttf');
+}
+
+@font-face {
+  font-family: 'CatHat';
+  src: url('./assets/fonts/thecathasahat.ttf');
+}
+
+
+body {
+  background-color: #EAE7DC;
+}
+
+h2, h3, h4{
+  font-family: JosefinSans;
+  font-weight: 700;
+}
+
+.p1{
+  font-family: Montserrat;
+  font-weight: 500;
+}
