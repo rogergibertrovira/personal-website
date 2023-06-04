@@ -1,26 +1,56 @@
+h3,
+h4 {
+  color: #65635d;
+  font-family: JosefinSans;
+}
+
 @media only screen and (min-width: 992px) {
   .container1 {
-    padding-top: 100px;
+    padding-top: 50px;
     height: 100vh;
+  }
+  .col1 {
+    text-align: left;
+  }
+  .col-left {
+    padding-left: 50px;
+    padding-top: 40px;
+  }
+  .col-top {
+    padding-top: 40px;
   }
 }
 
 @media only screen and (max-width: 992px) {
   .container1 {
+    padding: 20px;
     padding-top: 50px;
     height: 100vh;
   }
+  .col1 {
+    text-align: center;
+  }
+  .col-left {
+    padding-top: 30px;
+  }
+  .col-top {
+    padding-top: 30px;
+  }
+}
+
+.section {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-family: JosefinSans;
+  font-size: 1.25em;
 }
 
 .row1 {
   padding-top: 20px;
 }
 
-.col1 {
-  text-align: center;
-}
-
 .icon1 {
+  color: #e85a4f;
   font-size: xx-large;
 }
 
@@ -28,4 +58,35 @@
   font-family: CatHat;
   font-weight: 900;
   color: #e85a4f;
+}
+
+.text {
+  font-family: JosefinSans;
+  font-size: larger;
+  color: #65635d;
+}
+
+.span1 {
+  font-family: JosefinSans;
+  color: #65635d;
+}
+
+.link1 {
+  color: #e98074;
+}
+
+.link1:hover,
+:focus {
+  color: #e85a4f;
+}
+
+.linkCV {
+  color: #65635d;
+  text-decoration: none;
+}
+
+.linkCV:hover,
+:focus {
+  color: #e85a4f;
+  text-decoration: underline;
 }
