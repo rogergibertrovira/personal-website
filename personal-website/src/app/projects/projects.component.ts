@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent {
+  hiddenMenu: boolean = false;
 
+  showMenu() {
+    this.hiddenMenu = true;
+  }
+
+  hideMenu() {
+    this.hiddenMenu = false;
+  }
 }

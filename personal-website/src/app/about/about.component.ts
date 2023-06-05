@@ -5,4 +5,14 @@ import { Component } from '@angular/core';
   templateUrl: './about.component.html',
   styleUrls: ['./about.component.css'],
 })
-export class AboutComponent {}
+export class AboutComponent {
+  hiddenMenu: boolean = false;
+
+  showMenu() {
+    this.hiddenMenu = true;
+  }
+
+  hideMenu() {
+    this.hiddenMenu = false;
+  }
+}
