@@ -1,5 +1,6 @@
 @media only screen and (min-width: 992px) {
   .container1 {
+    padding: 20px;
     padding-top: 50px;
   }
 }
@@ -14,19 +15,6 @@
   font-family: CatHat;
   font-weight: 900;
   color: #e85a4f;
-}
-
-.col-left {
-  overflow-y: hidden;
-}
-
-.col-right {
-  padding-top: 100px;
-  position: absolute;
-  top: 0px;
-  bottom: 0;
-  right: 0;
-  overflow-y: scroll;
 }
 
 .img1 {

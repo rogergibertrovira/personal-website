@@ -1,0 +1,44 @@
+.container {
+  font-family: JosefinSans;
+  color: #65635d;
+  padding: 50px;
+}
+
+.container:hover {
+  .name {
+    color: #e85a4f;
+  }
+}
+
+.span1 {
+  color: #65635d;
+  font-size: 1.3em;
+}
+
+.link1 {
+  color: #65635d;
+  font-size: 1.3em;
+  text-decoration: none;
+}
+
+.link1:hover,
+.link1:active {
+  color: #e85a4f;
+  text-decoration: underline;
+}
+
+.name {
+  padding-top: 50px;
+  font-family: JosefinSans;
+  font-weight: 600;
+}
+
+.text {
+  font-family: JosefinSans;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+.img1 {
+  width: 100%;
+}
