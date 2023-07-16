@@ -9,6 +9,8 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { CardPersonalWebComponent } from './card-personal-web/card-personal-web.component';
+import { CardWeatherWebComponent } from './card-weather-web/card-weather-web.component';
+import { SideMenuComponent } from './side-menu/side-menu.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { CardPersonalWebComponent } from './card-personal-web/card-personal-web.
     AboutComponent,
     ContactComponent,
     HomeComponent,
-    CardPersonalWebComponent
+    CardPersonalWebComponent,
+    CardWeatherWebComponent,
+    SideMenuComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
